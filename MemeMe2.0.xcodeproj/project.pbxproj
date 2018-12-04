@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A230B9821B6506C00372653 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A230B9721B6506C00372653 /* README.md */; };
 		5A3069B021B64C9C00BE8E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3069AF21B64C9C00BE8E68 /* AppDelegate.swift */; };
 		5A3069BA21B64C9D00BE8E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3069B821B64C9D00BE8E68 /* LaunchScreen.storyboard */; };
 		5A3069C221B64CCE00BE8E68 /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3069C121B64CCE00BE8E68 /* MemeViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A230B9721B6506C00372653 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5A3069AC21B64C9C00BE8E68 /* MemeMe2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3069AF21B64C9C00BE8E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A3069B921B64C9D00BE8E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		5A3069A321B64C9C00BE8E68 = {
 			isa = PBXGroup;
 			children = (
+				5A230B9721B6506C00372653 /* README.md */,
 				5A3069C921B64E1000BE8E68 /* .gitignore */,
 				5A3069AE21B64C9C00BE8E68 /* MemeMe2.0 */,
 				5A3069AD21B64C9C00BE8E68 /* Products */,
@@ -130,6 +133,7 @@
 			files = (
 				5A3069CA21B64E1000BE8E68 /* .gitignore in Resources */,
 				5A3069C621B64CE200BE8E68 /* Main.storyboard in Resources */,
+				5A230B9821B6506C00372653 /* README.md in Resources */,
 				5A3069C821B64CEA00BE8E68 /* Assets.xcassets in Resources */,
 				5A3069BA21B64C9D00BE8E68 /* LaunchScreen.storyboard in Resources */,
 			);
