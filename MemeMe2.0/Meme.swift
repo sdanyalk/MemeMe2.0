@@ -1,8 +1,8 @@
 //
 //  Meme.swift
-//  MemeMe1.0
+//  MemeMe2.0
 //
-//  Created by SDK on 11/19/18.
+//  Created by SDK on 12/3/18.
 //  Copyright © 2018 SDK. All rights reserved.
 //
 

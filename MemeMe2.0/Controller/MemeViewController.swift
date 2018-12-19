@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  MemeMe1.0
+//  MemeMe2.0
 //
-//  Created by SDK on 11/14/18.
+//  Created by SDK on 12/3/18.
 //  Copyright © 2018 SDK. All rights reserved.
 //
 
@@ -104,7 +104,11 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     func saveMemedImage() {
-        _ = Meme(topText: topTextField.text!, bottomText: bottomTextField.text!, originalImage: imageView.image!, memedImage: self.generateMemedImage())
+        let meme = Meme(topText: topTextField.text!, bottomText: bottomTextField.text!, originalImage: imageView.image!, memedImage: self.generateMemedImage())
+        
+        let object = UIApplication.shared.delegate
+        let appDelegate = object as! AppDelegate
+        appDelegate.memes.append(meme)
     }
     
     func presentPickerController(_ sourceType: UIImagePickerController.SourceType) {
