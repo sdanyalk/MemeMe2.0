@@ -276,6 +276,35 @@
             </objects>
             <point key="canvasLocation" x="1727" y="-174"/>
         </scene>
+        <!--Meme Detail View Controller-->
+        <scene sceneID="GOZ-uo-zps">
+            <objects>
+                <viewController storyboardIdentifier="MemeDetailViewController" id="Tg1-Gd-chY" customClass="MemeDetailViewController" customModule="MemeMe2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mwO-fi-49f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bkb-76-Cw6">
+                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9By-iQ-vBh" firstAttribute="bottom" secondItem="bkb-76-Cw6" secondAttribute="bottom" constant="20" id="Duw-ql-soE"/>
+                            <constraint firstItem="bkb-76-Cw6" firstAttribute="top" secondItem="9By-iQ-vBh" secondAttribute="top" id="Kaj-K7-HuG"/>
+                            <constraint firstItem="bkb-76-Cw6" firstAttribute="leading" secondItem="9By-iQ-vBh" secondAttribute="leading" constant="16" id="dr4-W6-BMS"/>
+                            <constraint firstItem="9By-iQ-vBh" firstAttribute="trailing" secondItem="bkb-76-Cw6" secondAttribute="trailing" constant="16" id="nNa-TT-lt5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9By-iQ-vBh"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="bkb-76-Cw6" id="qtH-xe-bZi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8v9-11-Q8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428" y="-174.06296851574214"/>
+        </scene>
     </scenes>
     <resources>
         <image name="camera" width="37.5" height="37.5"/>
