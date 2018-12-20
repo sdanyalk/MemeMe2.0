@@ -13,12 +13,12 @@
 		5A3069C221B64CCE00BE8E68 /* MemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3069C121B64CCE00BE8E68 /* MemeViewController.swift */; };
 		5A3069C421B64CD300BE8E68 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3069C321B64CD300BE8E68 /* Meme.swift */; };
 		5A3069C621B64CE200BE8E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3069C521B64CE200BE8E68 /* Main.storyboard */; };
-		5A3069C821B64CEA00BE8E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3069C721B64CEA00BE8E68 /* Assets.xcassets */; };
 		5A3069CA21B64E1000BE8E68 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5A3069C921B64E1000BE8E68 /* .gitignore */; };
 		5AB5B03821C8155300EDABA8 /* SentMemesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5B03721C8155300EDABA8 /* SentMemesCollectionViewController.swift */; };
 		5AB5B03A21C8318700EDABA8 /* SentMemesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5B03921C8318700EDABA8 /* SentMemesTableViewController.swift */; };
 		5ADD2F5521C9AA6900AA5D0C /* SentMemesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD2F5421C9AA6900AA5D0C /* SentMemesCollectionViewCell.swift */; };
 		5ADD2F5921CADE4D00AA5D0C /* MemeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADD2F5821CADE4D00AA5D0C /* MemeDetailViewController.swift */; };
+		5ADD2F5E21CB2C1800AA5D0C /* Assets.xcassets2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ADD2F5D21CB2C1800AA5D0C /* Assets.xcassets2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		5A3069C121B64CCE00BE8E68 /* MemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeViewController.swift; sourceTree = "<group>"; };
 		5A3069C321B64CD300BE8E68 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 		5A3069C521B64CE200BE8E68 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		5A3069C721B64CEA00BE8E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../MemeMe1.0/MemeMe1.0/Assets.xcassets; sourceTree = "<group>"; };
 		5A3069C921B64E1000BE8E68 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5AB5B03721C8155300EDABA8 /* SentMemesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMemesCollectionViewController.swift; sourceTree = "<group>"; };
 		5AB5B03921C8318700EDABA8 /* SentMemesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMemesTableViewController.swift; sourceTree = "<group>"; };
 		5ADD2F5421C9AA6900AA5D0C /* SentMemesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SentMemesCollectionViewCell.swift; path = MemeMe2.0/SentMemesCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		5ADD2F5821CADE4D00AA5D0C /* MemeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeDetailViewController.swift; sourceTree = "<group>"; };
+		5ADD2F5D21CB2C1800AA5D0C /* Assets.xcassets2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets2.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				5ADD2F5421C9AA6900AA5D0C /* SentMemesCollectionViewCell.swift */,
 				5A3069C321B64CD300BE8E68 /* Meme.swift */,
 				5A3069C521B64CE200BE8E68 /* Main.storyboard */,
-				5A3069C721B64CEA00BE8E68 /* Assets.xcassets */,
+				5ADD2F5D21CB2C1800AA5D0C /* Assets.xcassets2.xcassets */,
 				5A3069B821B64C9D00BE8E68 /* LaunchScreen.storyboard */,
 				5A3069BB21B64C9D00BE8E68 /* Info.plist */,
 			);
@@ -153,8 +153,8 @@
 			files = (
 				5A3069CA21B64E1000BE8E68 /* .gitignore in Resources */,
 				5A3069C621B64CE200BE8E68 /* Main.storyboard in Resources */,
+				5ADD2F5E21CB2C1800AA5D0C /* Assets.xcassets2.xcassets in Resources */,
 				5A230B9821B6506C00372653 /* README.md in Resources */,
-				5A3069C821B64CEA00BE8E68 /* Assets.xcassets in Resources */,
 				5A3069BA21B64C9D00BE8E68 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
