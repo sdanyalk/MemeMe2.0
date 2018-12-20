@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MemeMe2.0.xcodeproj">
+      location = "group:/Users/sdk/Danyal/Project/iOS-class/MemeMe2.0/MemeMe2.0/Assets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
