@@ -18,6 +18,13 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     @IBOutlet weak var footerToolbar: UIToolbar!
     @IBOutlet weak var shareButton: UIBarButtonItem!
     
+    var isDefaultBottomText: Bool = true
+    var isDefaultTopText: Bool = true
+    
+    let DEFAULT_TOP_TEXT: String = "TOP"
+    let DEFAULT_BOTTOM_TEXT: String = "BOTTOM"
+    
+    
     let memeTextAttributes: [NSAttributedString.Key: Any] = [
         NSAttributedString.Key.strokeColor: UIColor.black,
         NSAttributedString.Key.foregroundColor: UIColor.white,
@@ -35,10 +42,10 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
         
         initializeTextField(topTextField)
-        topTextField.text = "TOP"
+        topTextField.text = DEFAULT_TOP_TEXT
         
         initializeTextField(bottomTextField)
-        bottomTextField.text = "BOTTOM"
+        bottomTextField.text = DEFAULT_BOTTOM_TEXT
         
         subscribeToKeyboardNotifications()
     }
@@ -50,7 +57,19 @@ class MemeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        textField.text = ""
+        if textField.text == DEFAULT_TOP_TEXT && isDefaultTopText {
+            textField.text = ""
+            isDefaultTopText = false
+        }
+        if textField.text == DEFAULT_BOTTOM_TEXT && isDefaultBottomText {
+            textField.text = ""
+            isDefaultBottomText = false
+        }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
     func initializeTextField(_ textField: UITextField) {
